@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="220dp"
+    android:background="#66CC99">
+    <ImageView
+        android:id="@+id/id_img_parkinglot"
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/img_border"
+        android:src="@mipmap/parkinglot01"/>
+    <Button
+        android:id="@+id/id_btn_route"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@mipmap/img_btn_route"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignTop="@+id/id_img_parkinglot"/>
+
+    <Button
+        android:id="@+id/id_btn_navi"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@mipmap/img_btn_navi"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/id_btn_route"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@mipmap/bg_map_bottom">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/id_info_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="哈工大室内停车场"
+                android:textSize="20sp"
+                android:textColor="#FFF"/>
+
+            <TextView
+                android:id="@+id/id_info_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="距离200m"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/id_info_parknum_spare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空车位: 10"
+                android:textColor="#FFF"/>
+
+            <TextView
+                android:id="@+id/id_info_parknum_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="总车位: 22"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
