@@ -2,9 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.epark">
 
-    <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="24" />
+
     <!-- 手机震动权限 -->
     <uses-permission android:name="android.permission.BODY_SENSORS" />
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
@@ -40,9 +38,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <meta-data
-            android:name="BaiduMobAd_STAT_ID"
-            android:value="48ae76de3f" />
+
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="Xtuu5QkGhHHMhYypccmlm1tnlQeik8ow" />

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -9,6 +10,7 @@
         android:layout_height="match_parent"
         android:clickable="true">
     </com.baidu.mapapi.map.MapView>
+
 
     <RelativeLayout
         android:id="@+id/id_marker_ly"
@@ -21,4 +23,17 @@
         <include layout="@layout/marker_info"/>
 
     </RelativeLayout>
+
+    <include layout="@layout/search_title" />
+
+    <Button
+        android:id="@+id/btn_my_location"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:background="@mipmap/btn_my_location"/>
+
+
 </RelativeLayout>

@@ -11,10 +11,10 @@
         android:layout_height="match_parent"
         android:background="@mipmap/main_bg">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            >
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -22,45 +22,47 @@
 
                 <ImageView
                     android:id="@+id/img_logo_epark"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:background="@mipmap/logo_bg"
                     android:layout_centerInParent="true"/>
 
                 <Button
                     android:id="@+id/btn_outdoor"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:background="@mipmap/outdoor_2"
                     android:layout_alignBottom="@id/img_logo_epark"
                     android:layout_toLeftOf="@id/img_logo_epark"/>
 
                 <Button
                     android:id="@+id/btn_indoor"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:background="@mipmap/indoor_2"
                     android:layout_alignBottom="@id/img_logo_epark"
                     android:layout_toRightOf="@id/img_logo_epark"/>
 
                 <Button
                     android:id="@+id/btn_order"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:background="@mipmap/order_2"
                     android:layout_alignLeft="@id/img_logo_epark"
                     android:layout_above="@id/img_logo_epark"/>
 
                 <Button
                     android:id="@+id/btn_weather"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:background="@mipmap/weather_1"
                     android:layout_alignLeft="@id/img_logo_epark"
                     android:layout_below="@id/img_logo_epark"/>
             </RelativeLayout>
 
-        </LinearLayout>
+            <include layout="@layout/bottom_btn"/>
+
+        </RelativeLayout>
     </FrameLayout>
 
     <TextView
