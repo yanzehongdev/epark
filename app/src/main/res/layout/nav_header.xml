@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:padding="10dp"
+    android:background="#339966">
+
+    <de.hdodenhof.circleimageview.CircleImageView android:layout_height="70dp" android:layout_width="70dp" android:layout_centerInParent="true" android:src="@drawable/nav_icon" android:id="@+id/icon_image"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/mail" android:textSize="14sp" android:textColor="#FFF" android:text="yanzehong@gmail.com" android:layout_alignParentBottom="true"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/username" android:textSize="14sp" android:textColor="#FFF" android:text="Yan Zehong" android:layout_above="@+id/mail"/>
+</RelativeLayout>

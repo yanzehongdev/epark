@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+    <item android:title="停车记录" android:icon="@drawable/nav_menu" android:id="@+id/nav_call"/>
+
+    <item android:title="邀请好友" android:icon="@drawable/nav_friends" android:id="@+id/nav_friends"/>
+
+    <item android:title="发票地址" android:icon="@drawable/nav_location" android:id="@+id/nav_location"/>
+
+    <item android:title="投诉建议" android:icon="@drawable/nav_mail" android:id="@+id/nav_mail"/>
+
+    <item android:title="我的钱包" android:icon="@drawable/nav_task" android:id="@+id/nav_task"/>
+
+</group>
+</menu>
