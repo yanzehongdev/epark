@@ -24,17 +24,17 @@ public class LocationInfo implements Serializable {
 
     static {
         infos.add(new LocationInfo(22.587779,113.972414, R.mipmap.parkinglot01, "丽山路",
-                "距离209米", 22, 16 ));
+                "距离1.7公里", 22, 16 ));
         infos.add(new LocationInfo(22.592598,113.973089, R.mipmap.parkinglot01, "平山一路",
-                "距离897米", 103, 20));
+                "距离760米", 103, 20));
         infos.add(new LocationInfo(22.593153,113.974791, R.mipmap.parkinglot01, "校园路",
-                "距离249米", 30, 10));
+                "距离149米", 30, 10));
         infos.add(new LocationInfo(22.595105,113.975478, R.mipmap.parkinglot01, "学苑大道",
-                "距离679米", 72, 47));
+                "距离229米", 72, 47));
         infos.add(new LocationInfo(22.593636,113.977145, R.mipmap.parkinglot01, "哈工大G座",
-                "距离679米", 20, 11));
+                "距离60米", 20, 11));
         infos.add(new LocationInfo(22.592987,113.972961, R.mipmap.parkinglot01, "桑泰丹华",
-                "距离679米", 55, 23));
+                "距离879米", 55, 23));
 
     }
 
